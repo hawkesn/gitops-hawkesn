@@ -9,5 +9,5 @@ spec:
   project: default
   source:
     path: clusters/taurus/system
-    repoURL: git@github.com:hawkesn/gitops-hawkesn.git
+    repoURL: https://github.com/hawkesn/gitops-hawkesn.git
     targetRevision: HEAD

@@ -1,0 +1,13 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: taurus-bootstrap
+  namespace: argocd
+spec:
+  destination:
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    path: clusters/taurus/system
+    repoURL: git@github.com:hawkesn/gitops.git
+    targetRevision: HEAD

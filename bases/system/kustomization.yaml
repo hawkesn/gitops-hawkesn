@@ -1,0 +1,6 @@
+---
+resources:
+- bitnami-sealed-secrets/bitnami-sealed-secrets.yaml
+- argocd/application-sample.yaml
+- argocd/argocd-cmd-params-cm.yaml
+- argocd/argocd-ingressroute.yaml

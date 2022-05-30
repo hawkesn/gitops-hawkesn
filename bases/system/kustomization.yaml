@@ -4,3 +4,4 @@ resources:
 - argocd/application-sample.yaml
 - argocd/argocd-cmd-params-cm.yaml
 - argocd/argocd-ingressroute.yaml
+- traefik/traefik-dashboard-ingressroute.yaml

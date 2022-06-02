@@ -1,8 +1,9 @@
 ---
 resources:
-- bitnami-sealed-secrets/bitnami-sealed-secrets.yaml
 - argocd/application-sample.yaml
 - argocd/argocd-cmd-params-cm.yaml
 - argocd/argocd-ingressroute.yaml
 - argocd/argocd-image-updater.yaml
+- argocd/dockerhub-secret.yaml
+- bitnami-sealed-secrets/bitnami-sealed-secrets.yaml
 - traefik/traefik-dashboard-ingressroute.yaml

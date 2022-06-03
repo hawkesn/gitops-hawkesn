@@ -41,7 +41,7 @@ spec:
           - port: 8080
             name: http
         pullSecrets:
-        - argocd/dockerhub-secret
+        - dockerhub-secret
         rollingUpdate:
           enabled: true
           maxSurge: "50%"

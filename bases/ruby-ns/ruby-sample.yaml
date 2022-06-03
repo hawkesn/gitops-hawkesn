@@ -5,11 +5,11 @@ metadata:
   # You'll usually want to add your resources to the argocd namespace.
   namespace: argocd
   annotations:
-    #argocd-image-updater.argoproj.io/image-list: gofun=ghcr.io/kuuji/project/app
-    #argocd-image-updater.argoproj.io/gofun.allow-tags: regexp:^pre-production-.*$
-    argocd-image-updater.argoproj.io/gofun.helm.image-spec: containers[0].image
-    argocd-image-updater.argoproj.io/gofun.pull-secret: pullsecret:argocd/dockerhub-secret
-    argocd-image-updater.argoproj.io/gofun.update-strategy: latest
+    #argocd-image-updater.argoproj.io/image-list: ruby-sample=ghcr.io/kuuji/project/app
+    #argocd-image-updater.argoproj.io/ruby-sample.allow-tags: regexp:^pre-production-.*$
+    argocd-image-updater.argoproj.io/ruby-sample.helm.image-spec: containers[0].image
+    argocd-image-updater.argoproj.io/ruby-sample.pull-secret: pullsecret:argocd/dockerhub-secret
+    argocd-image-updater.argoproj.io/ruby-sample.update-strategy: latest
 spec:
   # The project the application belongs to.
   project: default

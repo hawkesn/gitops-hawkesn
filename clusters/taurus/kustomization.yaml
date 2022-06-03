@@ -1,0 +1,4 @@
+---
+bases:
+- ruby-ns
+- system

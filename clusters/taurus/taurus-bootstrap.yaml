@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: taurus-bootstrap-system
+  name: taurus-bootstrap
   namespace: argocd
 spec:
   destination:

@@ -1,14 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: taurus-bootstrap
+  name: taurus-bootstrap-system
   namespace: argocd
 spec:
   destination:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: clusters/taurus/system
+    path: clusters/taurus
     repoURL: https://github.com/hawkesn/gitops-hawkesn.git
     targetRevision: HEAD
   # Sync policy

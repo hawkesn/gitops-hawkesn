@@ -4,8 +4,7 @@ resources:
 - argocd/argocd-cmd-params-cm.yaml
 - argocd/argocd-ingressroute.yaml
 - argocd/argocd-image-updater.yaml
+- argocd/argocd-image-updater-cm.yaml
 - argocd/dockerhub-secret-sealed.yaml
 - bitnami-sealed-secrets/bitnami-sealed-secrets.yaml
 - traefik/traefik-dashboard-ingressroute.yaml
-patchesStrategicMerge:
-  - argocd/argocd-image-updater-cm.yaml

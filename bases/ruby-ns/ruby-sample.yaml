@@ -5,7 +5,7 @@ metadata:
   # You'll usually want to add your resources to the argocd namespace.
   namespace: argocd
   annotations:
-    #argocd-image-updater.argoproj.io/image-list: ruby-sample=ghcr.io/kuuji/project/app
+    argocd-image-updater.argoproj.io/image-list: ruby-sample=docker.io/hawkesn/ruby-sample
     #argocd-image-updater.argoproj.io/ruby-sample.allow-tags: regexp:^pre-production-.*$
     argocd-image-updater.argoproj.io/ruby-sample.helm.image-spec: containers[0].image
     argocd-image-updater.argoproj.io/ruby-sample.pull-secret: pullsecret:argocd/dockerhub-secret

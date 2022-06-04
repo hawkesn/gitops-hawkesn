@@ -5,6 +5,7 @@ metadata:
   labels:
     app.kubernetes.io/name: argocd-image-updater-config
     app.kubernetes.io/part-of: argocd-image-updater
+  namespace: argocd
 data:
   # log.level can be one of trace, debug, info, warn or error
   log.level: debug

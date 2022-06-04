@@ -1,4 +1,4 @@
 ---
 resources:
 - ruby-sample.yaml
-- dockerhub-secret.yaml
+- dockerhub-secret-sealed.yaml

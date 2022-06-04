@@ -36,6 +36,9 @@ spec:
             httpGet:
               path: /
               port: 8080
+          env:
+          - name: PORT
+            value: 8080
         service:
           ports:
           - port: 8080
